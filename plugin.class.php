@@ -116,7 +116,7 @@
 						<hr style="margin-bottom: 10px;">
 						<button class="button btnadd"><span title="Add New" class="dashicons dashicons-plus-alt"></span><?php _e( 'Add New', 'la-wordsrotator' ); ?></button>&nbsp;
 						<button class="button btndelete"><span class="dashicons dashicons-dismiss" title="Delete"></span><?php _e( 'Delete', 'la-wordsrotator' ); ?></button>
-						<button class="button-primary fullshortcode pull-right" id="1"><?php _e( 'Get Shortcode', 'la-wordsrotator' ); ?></button>
+						<button class="button-primary fullshortcode pull-right" id="<?php echo $data['counter']; ?>"><?php _e( 'Get Shortcode', 'la-wordsrotator' ); ?></button>
 						
 					</div>
 						<?php } ?>
@@ -220,7 +220,7 @@
 			
 		}
 	}
-
+ 
 	function render_words_rotator($atts, $content, $the_shortcode){
 		$savedmeta = get_option( 'la_words_rotator' );
 		if (isset($savedmeta['rotwords'])) {
