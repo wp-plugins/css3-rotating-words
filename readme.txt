@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-CSS3 Rotating Words will allow user to add multiple words in a sentence that will change randomly with CSS3 animation effects.Using CSS Animations you can change or rotate some parts of a sentence.
+CSS3 Rotating Words will allow user to add multiple words in a sentence that will change randomly with CSS3 animation effects.
 == Description ==
 CSS3 Rotating Words will allow user to add multiple words in a sentence that will change randomly with CSS3 animation effects.
 You can add multiple words in a sentence and make theme to change after several interval of time and change will take place with the CSS3 animation effect.
